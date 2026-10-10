@@ -5,7 +5,7 @@ An LED only starts conducting above a certain voltage, and that voltage depends 
 I did this with an ESP32 and the LEDs from a beginner starter kit. No lab equipment, no multimeter.
 
 <p align="center">
-  <img src="figures/setup.jpg" width="380" alt="The whole setup on a breadboard: ESP32, one LED, one 220 Ω resistor">
+  <img src="setup.jpg" width="380" alt="The whole setup on a breadboard: ESP32, one LED, one 220 Ω resistor">
 </p>
 
 ## Result
@@ -14,7 +14,7 @@ I did this with an ESP32 and the LEDs from a beginner starter kit. No lab equipm
 
 The accepted value is 6.63 × 10⁻³⁴ J·s, so my result is 18 % too high, which is about one standard error away.
 
-![Voltage at 1 mA against 1/λ, with the linear fit](figures/planck_fit.png)
+![Voltage at 1 mA against 1/λ, with the linear fit](planck_fit.png)
 
 | LED    | wavelength I assumed | voltage at 1 mA | spread over 4 runs |
 |--------|----------------------|-----------------|--------------------|
